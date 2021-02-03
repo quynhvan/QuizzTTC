@@ -1,0 +1,101 @@
+
+plugins {
+    id 'com.android.application'
+
+}
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+
+    }
+    
+    defaultConfig {
+        applicationId "com.example.ttcquizz"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures{
+        dataBinding {
+            enabled = true
+        }
+    }
+    packagingOptions {
+        exclude "META-INF/DEPENDENCIES"
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'com.weimob.library.groups:retrofit2:2.3.2-weimob'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.wear:wear:1.1.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha03'
+    implementation 'com.android.support:design'
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.okhttp3:okhttp:3.14.9"
+    implementation "com.google.code.gson:gson:2.8.5"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.9'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'com.google.api-client:google-api-client:1.30.10'
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+    implementation "androidx.room:room-guava:$room_version"
+    testImplementation "androidx.room:room-testing:$room_version"
+    implementation 'android.arch.lifecycle:extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.2.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    // libraly for FCM
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+

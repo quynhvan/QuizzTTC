@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_180sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:src="@drawable/logo_ttc"
+            android:layout_width="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/tV_slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="@string/tV_slogan"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/_25sdp" />
+
+    </LinearLayout>
+</layout>

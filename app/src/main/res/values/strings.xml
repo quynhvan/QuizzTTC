@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TTCQUIZZ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_his">History</string>
+    <string name="nav_exam">Exam</string>
+    <string name="tV_slogan">Continuous Creativity</string>
+    <string name="menu_notification">notification</string>
+    <string name="ten_bai_thi">Tên bài thi</string>
+    <string name="diem_so">Điểm số</string>
+    <string name="bai_thi_so_1">Bài thi số 1</string>
+    <string name="tv_thoi_gian_thi">Thời gian thi:</string>
+    <string name="tv_ngay_thi">Ngày thi</string>
+    <string name="btnLogin">Login</string>
+    <string name="txtEmail">Email</string>
+    <string name="btn_Continue">Continue</string>
+    <string name="txtPass">Password</string>
+    <string name="tVlogin">Login</string>
+    <string name="tV_titletest">You have the exam.Ready to take the test!</string>
+    <string name="txtMailRequired">Email is required</string>
+    <string name="txtPassRequired">Password is required</string>
+    <string name="txt_login_fail">Login invalid email or password.</string>
+    <string name="title_activity_start_quizz">StartQuizzActivity</string>
+    <string name="btnStart">Start Quiz</string>
+    <string name="txt_title">Confirm</string>
+    <string name="btnNo">No</string>
+    <string name="btnYes">Yes</string>
+    <string name="txt_change">Change Password</string>
+    <string name="txt_old_password">Old Password</string>
+    <string name="txt_new_password">New Password</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnChange">Change</string>
+    <string name="txtOldRequired"> Old password is required</string>
+    <string name="txtNewRequired"> New password is required</string>
+    <string name="txtConfirmRequired"> Confirm password is required</string>
+    <string name="txtFailChange">Something wrong</string>
+    <string name="tV_Deadline">Date Exp :</string>
+    <string name="question">VnDoc xin giới thiệu 17 bộ đề thi học kì 1 môn Hóa học lớp 10 là đề kiểm tra học kì 1 lớp 10 môn Hóa. Đây là tài liệu hay dành cho các bạn tự ôn tập, hệ thống lại kiến thức, nhằm đạt kết quả tốt trong bài thi cuối kì sắp tới. Chúc các bạn học tốt, mời các bạn tải về tham khảo</string>
+    <string name="tv_ttc_solution">TTC Solution</string>
+    <string name="tv_submit">Submit</string>
+    <string name="tv_question1">Nếu chỉ có một que diêm, trong một ngày mùa đông giá rét, bạn bước vào căn phòng có một cây đèn, một bếp dầu, và một bếp củi, bạn thắp gì trước tiên?
+    </string>
+    <string name="tv_answer">Câu trả lời số 1</string>
+    <string name="tv_hint_edt_answer">câu trả lời 1</string>
+    <string name="example_question">Con gà có trước hay quả trứng có trước?</string>
+    <string name="answerD">Không con nào cả vì chúng nằm hết trong bụng mình rồi</string>
+    <string name="warning"> Time up!</string>
+    <string name="success">Success!</string>
+    <string name="submited">You submitted the test!</string>
+    <string name="btn_close">Close</string>
+    <string name="tv_TL">TL</string>
+    <string name="tv_TN">TN</string>
+    <string name="warning_confirm_submit">Are you ready to submit the test?</string>
+</resources>

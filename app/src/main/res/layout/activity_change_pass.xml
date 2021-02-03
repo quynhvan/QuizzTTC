@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.cardview.widget.CardView
+        android:elevation="5dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:background="@color/orange"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:context=".ChangePassActivity"
+        >
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.textfield.TextInputLayout
+                app:startIconDrawable="@drawable/ic_lock"
+                app:startIconTint="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:hintTextAppearance="@style/Widget.Design.TextInputLayout"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/orange">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tedtOldPass"
+                    android:layout_width="match_parent"
+                    android:hint="Old Password"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:startIconDrawable="@drawable/ic_change"
+                app:startIconTint="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:hintTextAppearance="@style/Widget.Design.TextInputLayout"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/orange">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tedtNewPass"
+                    android:layout_width="match_parent"
+                    android:hint="New Password"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:startIconDrawable="@drawable/ic_confirm"
+                app:startIconTint="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:hintTextAppearance="@style/Widget.Design.TextInputLayout"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/orange">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tedtConfirmPass"
+                    android:layout_width="match_parent"
+                    android:hint="Confirm Password"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnChange"
+                android:textColor="@color/white"
+                android:background="@drawable/button_custom"
+                android:text="Change"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btnCancleChange"
+                android:textColor="@color/white"
+                android:background="@drawable/button_custom"
+                android:text="Cancle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

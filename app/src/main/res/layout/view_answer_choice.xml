@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints">
+        <RadioButton
+            android:id="@+id/ra_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_normal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/tv_answer"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/tv_question" />
+
+        <RadioButton
+            android:id="@+id/ra_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_normal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/tv_answer"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/ra_answer1" />
+
+        <RadioButton
+            android:id="@+id/ra_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_normal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/tv_answer"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/ra_answer2" />
+
+        <RadioButton
+            android:id="@+id/ra_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_normal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/tv_answer"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/ra_answer3" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
